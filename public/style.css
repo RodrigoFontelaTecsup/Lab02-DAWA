@@ -1,0 +1,21 @@
+.logo-empresa {
+  width: 100px;
+  height: 100px;
+}
+
+.card {
+  min-height: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.card-img-top {
+  flex-grow: 1;
+  object-fit: cover;
+}
+
+.card-body {
+  flex-grow: 0;
+}
